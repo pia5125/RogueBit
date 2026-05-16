@@ -17,6 +17,7 @@ on:
           - perfumes_beauty
           - super_perfumes
           - super_cleaning
+          - testers
 
 jobs:
   scrape:
@@ -32,6 +33,8 @@ jobs:
             display_name: Super Perfumes
           - name: super_cleaning
             display_name: Super Cleaning
+          - name: testers
+            display_name: Testers
     
     name: Scrape ${{ matrix.category.display_name }}
     
